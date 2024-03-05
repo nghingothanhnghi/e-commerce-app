@@ -1,0 +1,29 @@
+{
+    "greeting": "Hello, World!",
+    "welcome": "Welcome to our app.",
+    "register": "Register",
+    "campaigns": "Campaigns",
+    "projects": "Projects",
+    "question": "Question",
+    "signin": "Sign In",
+    "username_label": "Username",
+    "password_label": "Password",
+    "signin_message_01": "Get access to your account",
+    "signin_message_02": "Already have an account?",
+    "signout": "Sign Out",
+    "posted_by": "Posted by",
+    "timeAgo": "{{time}} ago",
+    "thisMonth": "this month",
+    "authorInfoNotAvailable": "Author Information Not Available",
+
+    "email":"Email",
+    "firstName":"First Name",
+    "lastName":"Last Name",
+    "introductionCode":"Introduction Code",
+    "generateLink":"Generate Link",
+    "close":"Close",
+    "linkGeneratedIntro":"Generated Link",
+    "emptyImage":"No images available",
+    "detail":"Description"
+    
+}

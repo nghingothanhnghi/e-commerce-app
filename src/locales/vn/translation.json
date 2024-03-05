@@ -1,0 +1,28 @@
+{
+    "greeting": "Xin chào, thế giới!",
+    "welcome": "Chào mừng bạn đến với ứng dụng của chúng tôi.",
+    "register": "Đăng ký",
+    "campaigns": "Chiến dịch",
+    "projects": "Dự án",
+    "question": "Câu hỏi",
+    "signin": "Đăng nhập",
+    "username_label": "Tên đăng nhập",
+    "password_label": "Mật khẩu",
+    "signin_message_01": "Đăng nhập tài khoản",
+    "signin_message_02": "Đã có tài khoản?",
+    "signout": "Thoát",
+    "posted_by": "Đăng bởi",
+    "timeAgo": "{{time}} vừa rồi",
+    "thisMonth": "tháng",
+    "authorInfoNotAvailable": "Chưa có tác giả",
+
+    "email":"Email",
+    "firstName":"Tên",
+    "lastName":"Họ",
+    "introductionCode":"Mã giới thiệu",
+    "generateLink":"Tạo link",
+    "close":"Thoát",
+    "linkGeneratedIntro":"Link giới thiệu",
+    "emptyImage":"Hình chưa cập nhật",
+    "detail":"Mô tả chi tiết"
+}

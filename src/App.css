@@ -1,0 +1,267 @@
+:root {
+  --bs-heading-color: #002855 !important;
+  --bs-body-color: #002855 !important;
+  --bs-secondary-color: #586D93 !important;
+  --bs-btn-color: #002855 !important;
+}
+.brand-text{
+  font-size: 0.7em;
+  font-family: "Anta", sans-serif;
+}
+.card-sm .card-title.h5{
+  font-size: var(--bs-body-font-size);
+  font-weight: 600;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+.card-sm .list-group-item{
+  font-size: 0.875em;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #002855 !important;
+  background-color: #e0ecfe !important;
+  opacity: 1;
+}
+.nav-pills .nav-link{ color:#586D93 !important; opacity: 0.5;}
+.btn-circle.btn-sm{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  border-radius: 50%;
+}
+html,
+body {
+  height: 100%;
+}
+.py-7{
+  padding-top: 7rem !important;
+  padding-bottom: 7rem !important;
+}
+body {
+  font-family: 'Inter', sans-serif !important;
+  background-color: #f6f8fa !important;
+}
+.cover-container {
+  max-width: 43em;
+}
+@media (min-width:768px) {
+  .border-md-start {
+    border-left: 1px solid #ddd !important;
+  }
+}
+
+.cx_paging {
+  font-size: 12px;
+}
+
+.modal-backdrop {
+  --bs-backdrop-opacity: 0.1 !important;
+}
+
+.cx_table-default.table-sm thead th {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  white-space: nowrap;
+}
+
+.ql-editor {
+  min-height: 250px;
+  max-height: 250px;
+  overflow: auto;
+}
+
+.table-sm> :not(caption)>*>* {
+  font-size: 13px;
+}
+
+.btn-light {
+  --bs-btn-color: #002855 !important;
+}
+
+.col-fixed-w150 {
+  max-width: 150px;
+}
+
+.col-fixed-w90 {
+  max-width: 90px;
+}
+
+.col-fixed-w50 {
+  max-width: 50px;
+}
+
+.col-fixed-w40 {
+  max-width: 40px;
+}
+
+.col-fixed-w30 {
+  max-width: 30px;
+}
+
+.col-no {
+  width: 45px;
+  text-align: center;
+}
+.no-caret.dropdown-toggle::after{
+  display: none;
+}
+.col-action_table {
+  width: 150px;
+}
+
+.w126 {
+  width: 126px;
+}
+.w-430{
+  width: 430px;
+}
+.w-297{
+  width: 297px;
+}
+.xs-loading.modal-180w .modal-content{
+  width: 180px;
+  margin: 0 auto;
+}
+.modal-180w {
+  --bs-modal-width: 180px;
+}
+
+.modal-225w {
+  --bs-modal-width: 225px;
+}
+
+.modal-331w {
+  --bs-modal-width: 331px;
+}
+
+.scrll-max-h400 {
+  max-height: calc(100vh - 250px);
+  overflow-y: auto;
+}
+
+.btn-group-nested-no-bdr-top .form-control,
+.btn-group-nested-no-bdr-top .input-group-text {
+  border-top-color: transparent;
+  background-color: transparent;
+}
+
+.toasts-container {
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: 12px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.top-right {
+  top: 16px;
+  right: 16px;
+}
+
+.top-left {
+  top: 16px;
+  left: 16px;
+}
+
+.top-center {
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottom-left {
+  bottom: 16px;
+  left: 16px;
+}
+
+.bottom-center {
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottom-right {
+  bottom: 16px;
+  right: 16px;
+}
+
+.toast {
+  /* rest of the properties */
+  animation: slide-in 0.4s ease-in-out forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.toast-dismissed {
+  animation: slide-out 0.4s ease-in-out forwards;
+}
+
+@keyframes slide-out {
+  0% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+.slide-up {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.slide-up.show {
+  max-height: 200px; /* Adjust the max-height value as needed */
+}
+/* slick */
+.slick-list, .slick-slider, .slick-track{ height: 100% !important;}
+.slick-track{ display: flex !important;}
+.slick-slide > div{ height: 100%;}
+
+.bg-body-lightorange{
+  background-color: #e2e2e2;
+}
+.form-offcanvas-body{
+  flex-grow: 1;
+  padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+  overflow-y: auto;
+}
+.form-offcanvas-container.offcanvas.offcanvas-bottom{
+  height: 80vh;
+}
+.generated-link-form{
+  background-color: #fff;
+  border-radius: 40px;
+  border: 2px solid #000;
+}
+.generated-link-form.input-group .form-control, .generated-link-form.input-group .btn{
+  border-radius: 0;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 0.875em;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.generated-link-form.input-group:not(.has-validation) > .form-floating:not(:last-child) > .form-control{
+  padding-left: 30px;
+}
+.generated-link-form.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback){
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}

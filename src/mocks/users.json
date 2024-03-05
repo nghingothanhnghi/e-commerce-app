@@ -1,0 +1,24 @@
+[
+    {
+      "username": "admin@gmail.com",
+      "password": "admin123",
+      "email": "admin@gmail.com",
+      "userType": "admin",
+      "firstName": "Nghi"
+    },
+    {
+      "username": "admin2@gmail.com",
+      "password": "adv123",
+      "email": "admin2@gmail.com",
+      "userType": "advertiser",
+      "firstName": "Hoang"
+    },
+    {
+      "username": "admin3@gmail.com",
+      "password": "pub123",
+      "email": "admin3@gmail.com",
+      "userType": "publisher",
+      "firstName": "Minh"
+    }
+  ]
+  
