@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Navbar, Container, Nav, Offcanvas, Button } from "react-bootstrap";
 import { IconMenu, IconLock } from "@tabler/icons-react";
@@ -13,7 +13,7 @@ import WishlistCount from "../WishlistCount/WishlistCount";
 import Logo from "../../assets/chuotxanh_ico.png"
 
 const NavigationHome = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { scrollToSection } = useScrollToSections();
   const [show, setShow] = useState(false);
 
@@ -25,6 +25,11 @@ const NavigationHome = () => {
     // Close the Offcanvas when a link is clicked
     handleClose();
   };
+
+  useEffect(() => {
+    // Set the language to 'vn' immediately after the component mounts
+    i18n.changeLanguage('vn');
+  }, [i18n]);
 
   // Directly define the translated sections here
   const sections = ["campaigns"].map(section => t(section));
